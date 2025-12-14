@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PasarGad Studio – Indie Game Developer</title>
+  <meta name="description" content="PasarGad Studio is an indie game studio creating story-driven games." />
+
+  <meta property="og:title" content="PasarGad Studio" />
+  <meta property="og:description" content="Official website of PasarGad Studio" />
+  <meta property="og:image" content="{{ '/assets/images/cover.png' | relative_url }}" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-logo">
+        <img src="{{ '/assets/images/logo-pasargad.png' | relative_url }}" alt="PasarGad Studio logo" />
+      </div>
+      <span class="brand-name">PasarGad Studio</span>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}#hero">Home</a></li>
+        <li><a href="{{ '/pages/games.html' | relative_url }}">Games</a></li>
+        <li><a href="{{ '/pages/about.html' | relative_url }}">Studio</a></li>
+        <li><a href="{{ '/pages/team.html' | relative_url }}">Team</a></li>
+        <li><a href="{{ '/pages/press-kit.html' | relative_url }}">Press Kit</a></li>
+        <li><a href="{{ '/pages/contact.html' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> PasarGad Studio. Crafted with creativity among the ruins of Persia.</p>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,124 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PasarGad Studio</title>
-  <meta name="description" content="PasarGad Studio – a small dreamer team in love with creativity, crafting games inspired by Pasargad of Persia." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="brand">
-      <div class="brand-logo">
-        <img src="assets/logo-pasargad.png" alt="PasarGad Studio logo" />
-      </div>
-      <span class="brand-name">PasarGad Studio</span>
+---
+layout: default
+title: PasarGad Studio – Indie Game Developer
+---
+
+<section id="hero" class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg">
+    <div class="hero-sun"></div>
+    <div class="hero-plateau"></div>
+    <div class="hero-ruins hero-ruins--left"></div>
+    <div class="hero-ruins hero-ruins--center"></div>
+    <div class="hero-ruins hero-ruins--right"></div>
+    <div class="hero-stars"></div>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-tag">Game Studio · Pasargad · Persia</p>
+    <h1 id="hero-title">Where ancient stones whisper new stories</h1>
+    <p class="hero-subtitle">Narrative-driven games born in the shadow of Pasargad, searching the value of humanity in every choice.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#upcoming">Enter the ruins</a>
+      <a class="btn btn-ghost" href="#quest">Join the quest</a>
     </div>
+  </div>
+</section>
 
-    <nav class="main-nav" aria-label="Main navigation">
-      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#upcoming">Upcoming</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#quest">Quest</a></li>
-        <li><a href="#universe">Universe</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<section id="upcoming" class="section section--upcoming" aria-labelledby="upcoming-title">
+  <div class="section-inner">
+    <h2 id="upcoming-title" class="section-title">Upcoming Game</h2>
+    <div class="cards-grid">
+      <article class="card game-card">
+        <header class="card-header">
+          <h3 class="game-title">Two sides</h3>
+          <span class="game-tag">Detective · Narrative · Mystery</span>
+        </header>
+        <p class="game-logline">A detective game where we search for humanity's value.</p>
+        <p class="game-flavor">Walk the silent corridors of an ancient city, interrogate echoes of the past, and decide which side of humanity deserves to survive the night.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-  <main>
-    <section id="hero" class="hero" aria-labelledby="hero-title">
-      <div class="hero-bg">
-        <div class="hero-sun"></div>
-        <div class="hero-plateau"></div>
-        <div class="hero-ruins hero-ruins--left"></div>
-        <div class="hero-ruins hero-ruins--center"></div>
-        <div class="hero-ruins hero-ruins--right"></div>
-        <div class="hero-stars"></div>
-      </div>
+<section id="about" class="section section--about" aria-labelledby="about-title">
+  <div class="section-inner">
+    <h2 id="about-title" class="section-title">About PasarGad Studio</h2>
+    <p class="section-lead">a small dreamer team who are in love with creativity.</p>
+    <p class="section-body">We craft story-first experiences inspired by the ruins of Pasargad and the legends of Persia. Every project is a new journey into atmosphere, choice, and the quiet corners of the human heart.</p>
+  </div>
+</section>
 
-      <div class="hero-content">
-        <p class="hero-tag">Game Studio · Pasargad · Persia</p>
-        <h1 id="hero-title">Where ancient stones whisper new stories</h1>
-        <p class="hero-subtitle">Narrative-driven games born in the shadow of Pasargad, searching the value of humanity in every choice.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#upcoming">Enter the ruins</a>
-          <a class="btn btn-ghost" href="#quest">Join the quest</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="upcoming" class="section section--upcoming" aria-labelledby="upcoming-title">
-      <div class="section-inner">
-        <h2 id="upcoming-title" class="section-title">Upcoming Game</h2>
-        <div class="cards-grid">
-          <article class="card game-card">
-            <header class="card-header">
-              <h3 class="game-title">Two sides</h3>
-              <span class="game-tag">Detective · Narrative · Mystery</span>
-            </header>
-            <p class="game-logline">A detective game where we search for humanity's value.</p>
-            <p class="game-flavor">Walk the silent corridors of an ancient city, interrogate echoes of the past, and decide which side of humanity deserves to survive the night.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section section--about" aria-labelledby="about-title">
-      <div class="section-inner">
-        <h2 id="about-title" class="section-title">About PasarGad Studio</h2>
-        <p class="section-lead">a small dreamer team who are in love with creativity.</p>
-        <p class="section-body">We craft story-first experiences inspired by the ruins of Pasargad and the legends of Persia. Every project is a new journey into atmosphere, choice, and the quiet corners of the human heart.</p>
-      </div>
-    </section>
-
-    <section id="quest" class="section section--quest" aria-labelledby="quest-title">
-      <div class="section-inner">
-        <h2 id="quest-title" class="section-title">Join the Quest</h2>
-        <p class="section-lead">Follow our path as we bring Pasargad into the world of games.</p>
-        <a class="social-link" href="https://www.instagram.com/pasarrgad_studio?igsh=azVpdjh1OTJubHht" target="_blank" rel="noopener noreferrer">
-          <span class="social-icon instagram-icon" aria-hidden="true"></span>
-          <span>@pasarrgad_studio</span>
-        </a>
-      </div>
-    </section>
-
-    <section id="universe" class="section section--placeholder" aria-labelledby="universe-title">
-      <div class="section-inner">
-        <h2 id="universe-title" class="section-title">Universe</h2>
-        <p class="section-lead">The lore, worlds, and timelines of PasarGad Studio.</p>
-        <p class="placeholder-text">Coming soon. This is where we will map the greater universe for our games.</p>
-      </div>
-    </section>
-
-    <section id="team" class="section section--placeholder" aria-labelledby="team-title">
-      <div class="section-inner">
-        <h2 id="team-title" class="section-title">Team</h2>
-        <p class="section-lead">The dreamers behind the ruins.</p>
-        <p class="placeholder-text">Coming soon. We will introduce the creators, artists, and developers of PasarGad Studio.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section section--placeholder" aria-labelledby="contact-title">
-      <div class="section-inner">
-        <h2 id="contact-title" class="section-title">Contact</h2>
-        <p class="section-lead">Let the stones speak first, then send us a message.</p>
-        <p class="placeholder-text">Coming soon. We will add contact options and press information here.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>© <span id="year"></span> PasarGad Studio. Crafted with creativity among the ruins of Persia.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section id="quest" class="section section--quest" aria-labelledby="quest-title">
+  <div class="section-inner">
+    <h2 id="quest-title" class="section-title">Join the Quest</h2>
+    <p class="section-lead">Follow our path as we bring Pasargad into the world of games.</p>
+    <a class="social-link" href="https://www.instagram.com/pasarrgad_studio?igsh=azVpdjh1OTJubHht" target="_blank" rel="noopener noreferrer">
+      <span class="social-icon instagram-icon" aria-hidden="true"></span>
+      <span>@pasarrgad_studio</span>
+    </a>
+  </div>
+</section>

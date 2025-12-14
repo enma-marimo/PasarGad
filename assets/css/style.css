@@ -356,6 +356,33 @@ main {
   margin: 0 auto;
 }
 
+.section--page-header {
+  padding-block: 6rem 2rem;
+  background: radial-gradient(circle at 80% 0, rgba(242, 178, 107, 0.18), transparent 55%), var(--bg-alt);
+}
+
+.page-content {
+  max-width: 820px;
+}
+
+.page-content p + p {
+  margin-top: 0.9rem;
+}
+
+.page-content ul {
+  margin: 0.8rem 0 0 1.2rem;
+  padding-left: 0.6rem;
+}
+
+.page-content li {
+  margin-bottom: 0.3rem;
+}
+
+.page-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.86rem;
+}
+
 .section-title {
   font-size: 1.7rem;
   margin-bottom: 0.75rem;
@@ -481,6 +508,11 @@ main {
 .placeholder-text {
   color: var(--text-muted);
   margin-top: 0.4rem;
+}
+
+.press-logo {
+  max-width: 260px;
+  margin: 0.5rem 0 1rem;
 }
 
 .site-footer {
